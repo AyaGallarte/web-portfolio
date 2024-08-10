@@ -1,88 +1,103 @@
 #home {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Fira Sans !important;
+	text-align: left;
+	color: white;
+	font-size: 16px;
 	font-style: normal !important;
-	font-weight: 900 !important;
-	font-size: 24px !important;
-	line-height: 24px;
-	color: #003363;
-}
-
-.navbar {
-	background-color: light;
+	font-weight: 600;
 }
 
 #navbarNav {
-	font-family: Montserrat;
-	font-size: 16px;
+	font-family: Fira Sans !important;
+	text-align: left;
+	color: white;
+	font-size: 14px;
 	font-style: normal !important;
-	font-weight: 700 !important;
-	line-height: 24px;
-	color: black;
+
 }
 
-#title {
-	font-family: Montserrat;
-	font-size: 68px;
-	font-weight: 700;
-	line-height: 84px;
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #f31b99ad;
+	z-index: 1000;
+	padding: 0px;
+}
+
+#hi {
+	font-family: Fira Sans !important;
+	font-style: bold !important;
+	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+div#ayaA h1, div#ayaB h1, div#ayaC h1 {
+    font-family: "Playwrite CU", cursive;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 10rem;
+}
+
+#webDev{
+	font-family: "Mulish", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100px;
+	font-style: normal;
+	color: white;
+	margin-bottom: 100px;
+	margin-top: 80px;
 	text-align: center;
-	color: yellow;
-}
-
-#paul-quote {
-	color: yellow;
-	text-align: right;
+	padding: 20px;
 }
 
 #landing {
-	background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url(./images/img-home-bg.webp);
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/home4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 
 #new-projects {
-	background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url(./images/img-projects.jfif);
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.54)), url(./images/bgblack1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 
+#text-title, #text-projects, #text-tools, #contact-header, #social-header {
+	font-family: Fira Sans !important;
+	text-align: left;
+	padding-bottom: 20px;
+	color: hotpink;
+}
 
 #about {
-	background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url(./images/img-projects.jfif);
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.54)), url(./images/about6.jfif);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #my-tools {
-	background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url(./images/img-projects.jfif);
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.54)), url(./images/tools2.webp);
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 
-#contact-me {
-	background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url(./images/img-projects.jfif);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#social-media {
-	background: linear-gradient(rgba(0, 34, 65, 0.61), rgba(0, 34, 65, 0.61)), url(./images/img-projects.jfif);
+#social-media-and-contact {
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.54)), url(./images/contact1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #text-tools {
 	font-family: Montserrat;
-	color: yellow;
+	color: hotpink;
 	text-align: center;
-}
-
-#text-title {
-	font-family: Montserrat;
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 32px;
-	color: yellow;
 }
 
 /*#text-projects {
@@ -97,43 +112,38 @@
 
 #text-projects {
 	font-family: Montserrat;
-	color: yellow;
+	color: hotpink;
 	text-align: center;
 	padding-top: 30px;
 }
 
 #about p {
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 1.01rem;
+	font-style: normal;
 	color: #FFFFFF;
 }
 
-#contact-header {
-	font-family: Montserrat;
-	font-size: 32px;
-	font-weight: 700;
-	line-height: 32px;
-	text-align: left;
-	color: yellow;
+#about-img {
+	padding-top: 60px;
 }
 
-#contact-text {
+#contact-text, #social-header  {
 	font-family: Montserrat;
-	font-size: 24px;
-	font-weight: 500;
+	font-size: 1.5rem;
+	font-weight: 700;
 	line-height: 30px;
 	text-align: left;
-	color: #FFFFFF;
+	color: hotpink;
 }
 
 #contact-labels {
 	font-family: Montserrat;
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 1.5rem;
+	font-weight: 700;
 	line-height: 24.38px;
-	color: white;
+	color: hotpink;
 	text-align: left;
 }
 
@@ -169,14 +179,6 @@
 	color: #FFFFFF;
 }
 
-#social-header {
-	font-family: Montserrat;
-	font-size: 24px;
-	font-weight: 600;
-	line-height: 24px;
-	color: yellow;
-}
-
 footer {
 	font-family: Montserrat;
 	font-size: 13px;
@@ -186,6 +188,20 @@ footer {
 	color: white;
 }
 
+.card {
+    height: 180px; /* Ensure cards can grow to fit content */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto; /* Ensure images scale down on small screens */
+}
+
+.card-body {
+    padding: 15px; /* Adjust padding to prevent overflow */
+    flex-grow: 1;
+}
+
 .card-text {
 	font-family: Montserrat;
 	font-size: 13px;
@@ -193,4 +209,77 @@ footer {
 	line-height: 24px;
 	text-align: center;
 	color: black;
+}
+
+/*Utility classes*/
+.animate {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.animate.animate--delay-pointZeroFiveS {
+	animation-delay: .05s;
+}
+
+.animate.animate--delay-pointZeroZeroOneS {
+	animation-delay: .2s;
+}
+
+.animate.animate--fast {
+	animation-duration: 0.6s;
+}
+
+.animate.animate--slow {
+	animation-duration: 3s;
+}
+/*Animations*/
+@keyframes slideInLeft {
+	from {
+		transform: translateX(-300px);
+	}
+
+	to {
+		transform: translateX(0);
+	}
+}
+
+.slideInLeft {
+	animation-name: slideInLeft;
+	animation-timing-function: ease-in;
+}
+
+@media (max-width: 576px) {
+    #other-tools {
+        flex-direction: column !important;
+        padding-left: 0; /* Avoid unnecessary left padding on small screens */
+    }
+    #tools-1, #tools-2 {
+        justify-content: center !important;
+        flex-wrap: wrap !important; /* Allow items to wrap instead of overlap */
+    }
+
+    div#ayaA h1, div#ayaB h1, div#ayaC h1 {
+    	font-size: 5rem;
+    }
+
+    #hi {
+    	padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .my-3 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
