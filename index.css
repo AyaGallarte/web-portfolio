@@ -35,7 +35,7 @@
 }
 
 div#ayaA h1, div#ayaB h1, div#ayaC h1 {
-    font-family: "Playwrite CU", cursive;
+    font-family: "Playwrite CU", cursive !important;
     font-weight: bold;
     text-align: center;
     color: white;
