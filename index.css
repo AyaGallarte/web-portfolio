@@ -30,7 +30,7 @@
 	font-style: bold !important;
 	text-align: left;
 	padding-top: 100px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	color: white;
 }
 
@@ -39,7 +39,7 @@ div#ayaA h1, div#ayaB h1, div#ayaC h1 {
     font-weight: bold;
     text-align: center;
     color: white;
-    font-size: 10rem;
+    font-size: 9rem;
 }
 
 #webDev{
@@ -49,13 +49,13 @@ div#ayaA h1, div#ayaB h1, div#ayaC h1 {
 	font-style: normal;
 	color: white;
 	margin-bottom: 100px;
-	margin-top: 80px;
+	margin-top: 90px;
 	text-align: center;
 	padding: 20px;
 }
 
 #landing {
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/home4.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.54)), url(./images/home4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -263,7 +263,8 @@ footer {
     }
 
     #hi {
-    	padding-bottom: 50px;
+    	padding-top: 120px;
+    	padding-bottom: 70px;
     }
 }
 
