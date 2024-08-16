@@ -55,7 +55,7 @@ div#ayaA h1, div#ayaB h1, div#ayaC h1 {
 }
 
 #landing {
-	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.54)), url(./images/home4.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.54)), url(./images/home5.avif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -99,16 +99,6 @@ div#ayaA h1, div#ayaB h1, div#ayaC h1 {
 	color: hotpink;
 	text-align: center;
 }
-
-/*#text-projects {
-	font-family: Montserrat;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 32px;
-	color: yellow;
-	text-align: center;
-	padding-top: 30px;
-}*/
 
 #text-projects {
 	font-family: Montserrat;
@@ -180,13 +170,16 @@ div#ayaA h1, div#ayaB h1, div#ayaC h1 {
 }
 
 footer {
-	font-family: Montserrat;
-	font-size: 13px;
-	font-weight: 600;
-	line-height: 24px;
-	text-align: center;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	background-color: black;
 	color: white;
+	font-size: 13px;
+	min-width: 100%;
+	padding: 10px;
 }
+
 
 .card {
     height: 180px; /* Ensure cards can grow to fit content */
@@ -251,7 +244,6 @@ footer {
 @media (max-width: 576px) {
     #other-tools {
         flex-direction: column !important;
-        padding-left: 0; /* Avoid unnecessary left padding on small screens */
     }
     #tools-1, #tools-2 {
         justify-content: center !important;
